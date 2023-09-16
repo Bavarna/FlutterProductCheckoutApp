@@ -16,11 +16,11 @@ Checkout App is a simple Flutter application that allows users to order pizzas w
 <!-- Add screenshots of your app here -->
 
 ### Home Screen
-![Home Screen](screenshots/Home.png)
-
+<img src="screenshots/Home.png" alt="Home Screen" width="300" height="600">
 
 ### Order Summary
-![Order Summary](screenshots/Summary.png)
+<img src="screenshots/Summary.png" alt="Order Summary" width="300" height="600">
+
 
 ## Installation
 
