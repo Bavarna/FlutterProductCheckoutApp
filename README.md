@@ -1,17 +1,4 @@
-# pizza_checkout_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # FlutterProductCheckoutApp
+
+![image](https://github.com/Bavarna/FlutterProductCheckoutApp/assets/75368451/694e6870-388f-4df9-b2eb-a96998f92056)
+
