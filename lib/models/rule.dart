@@ -1,0 +1,1 @@
+enum Rule { none, threeForTwo, discount, fiveForFour }
