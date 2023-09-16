@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final Checkout checkout = Checkout();
+  final Checkout checkout = Checkout.instance;
 
   UserType? selectedUserType = UserType.defaultUser;
   UserType? dropdownValue;
@@ -24,7 +24,6 @@ class _HomeScreenState extends State<HomeScreen> {
       context,
       MaterialPageRoute(
         builder: (context) => SummaryScreen(
-          checkout: checkout,
           selectedUserType: selectedUserType,
           total: total,
           onNewOrder: () {

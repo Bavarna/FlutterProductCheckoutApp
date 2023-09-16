@@ -4,13 +4,12 @@ import 'package:pizza_checkout_app/models/product_type.dart';
 import 'package:pizza_checkout_app/models/user_type.dart';
 
 class SummaryScreen extends StatelessWidget {
-  final Checkout checkout;
+  final Checkout checkout = Checkout.instance;
   final UserType? selectedUserType;
   final double total;
   final VoidCallback onNewOrder;
 
   SummaryScreen({
-    required this.checkout, // Receive the checkout instance
     required this.selectedUserType,
     required this.total,
     required this.onNewOrder,

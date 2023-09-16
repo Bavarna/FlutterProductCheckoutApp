@@ -5,8 +5,19 @@ import '../models/product.dart';
 import 'checkout_manager.dart';
 
 class Checkout {
+
   final CheckoutManager checkoutManager = CheckoutManager();
+
   final Map<ProductType, int> items = {};
+
+  // Private constructor
+  Checkout._privateConstructor();
+
+  // Singleton instance
+  static final Checkout _instance = Checkout._privateConstructor();
+
+  // Getter to access the singleton instance
+  static Checkout get instance => _instance;
 
   void incrementItemCount(ProductType itemName) {
     if (items.containsKey(itemName)) {

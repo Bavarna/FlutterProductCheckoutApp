@@ -55,7 +55,7 @@ void main() {
   });
 
   test('Test Checkout Class', () {
-    final checkout = Checkout();
+    final checkout = Checkout.instance;
 
     // Test incrementItemCount and getItemCount
     checkout.incrementItemCount(ProductType.small);
